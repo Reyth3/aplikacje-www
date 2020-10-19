@@ -1,0 +1,110 @@
+html,
+body {
+    background-color: #fff;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#STRONA {
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+#NAGLOWEK {
+    background-color: #A53;
+}
+
+#MENU {
+    width: 380px;
+    float: left;
+    overflow: hidden;
+    background-color: #B75;
+}
+
+#TRESC {
+    width: 900px;
+    float: left;
+    overflow: hidden;
+    background-color: #FF6;
+}
+
+#STOPKA {
+    clear: both;
+    width: 100%;
+    background-color: #A53;
+    padding: 0px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+#NAGLOWEK>a>img {
+    width: 120px;
+    margin: 10px;
+    float: left;
+}
+
+#NAGLOWEK>a>h1 {
+    float: left;
+    vertical-align: center;
+}
+
+.clear {
+    clear: both;
+}
+
+#MENU ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#MENU li {
+    padding: 4px;
+    margin: 6px;
+    border: 1px solid #000;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#MENU a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-variant: small-caps;
+}
+
+#MENU li:hover {
+    background-color: #FFA;
+}
+
+#MENU a {
+    color: #FF0;
+}
+
+.art {
+    margin: 3px 4px;
+    border-bottom: 1px dotted black;
+}
+
+.art h2 {
+    font-variant: small-caps;
+    color: #210;
+}
+
+.art p {
+    text-align: justify;
+}
+
+.art img {
+    float: left;
+    width: 80px;
+    margin: 10px;
+    ;
+}
+
+.art img::after {
+    clear: both;
+}
