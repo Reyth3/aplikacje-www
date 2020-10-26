@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <div id="STRONA">
+        <div id="NAGLOWEK">
+            <a href="/">
+                <img alt="logo" src="images/ramen.png" />
+                <h1>Ramen Bar</h1>
+            </a>
+            <div class="clear"></div>
+
+        </div>
+        <div id="MENU">
+            <ul>
+                <li><a href="/">Strona główna</a></li>
+                <li><a href="/">Menu</a></li>
+                <li><a href="/">Dostawa</a></li>
+                <li><a href="/">Kontakt</a></li>
+            </ul>
+        </div>
+        <div id="TRESC">
+            <div class="art">
+
+                <form method="GET" action="/zamow" style="margin: 0px auto;">
+                    <h2>Zamów Catering</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia veniam ipsam nostrum.</p>
+                    <p class="etykieta">
+                        Email kontaktowy: <br />
+                    </p>
+                    <input type="email" class="dlugi" placeholder="email@example.com" />
+                    <div class="blok-50p">
+                        <p class="etykieta">Adres:</p>
+                        <input class="dlugi" type="text" name="address" />
+                        <p class="etykieta">Data:</p>
+                        <input class="dlugi" type="date" />
+                        <p class="etykieta">Ilość gości:</p>
+                        <input class="dlugi" type="number" min="25" max="250" />
+                        <div class="blok-50p">
+                            <input type="checkbox" name="vege" id="vege" />
+                            <label for="vege">Opcje wegetariańskie</label>
+                        </div>
+                        <div class="blok-50p">
+                            <input type="checkbox" name="vege" id="vege" />
+                            <label for="vege">lorem ipsum</label>
+                        </div>
+                    </div>
+                    <div class="blok-50p">
+                        <p class="etykieta">Wiadomość:</p>
+                        <textarea class="dlugi" name="message" style="min-height:180px;"></textarea>
+                    </div>
+                    <input class="dlugi submit" type="submit" value="Zamów" />
+                </form>
+            </div>
+        </div>
+        <div id="STOPKA">
+            <div>
+                <p>
+                    Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+                </p>
+            </div>
+            <div>
+                <p>AAA</p>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <img class="stopka-logo" alt="Our Facebook" src="images/footer-fb.png" />
+                <img class="stopka-logo" alt="Our Twitter" src="images/footer-tt.png" />
+                <img class="stopka-logo" alt="Our RSS feed" src="images/footer-rss.png" />
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</body>
+
+</html>

@@ -36,26 +36,21 @@ body {
     clear: both;
     width: 100%;
     background-color: #A53;
+    color: #FFA;
     padding: 0px;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
-    color: #FFA;
-}
-
-#NAGLOWEK>a {
-    color: #FF6;
 }
 
 #NAGLOWEK>a>img {
     width: 120px;
     margin: 10px;
-    display: inline-block;
-    vertical-align: top;
+    float: left;
 }
 
 #NAGLOWEK>a>h1 {
-    display: inline-block;
-    vertical-align: bottom;
+    float: left;
+    vertical-align: center;
 }
 
 .clear {
@@ -84,10 +79,11 @@ body {
 
 #MENU li:hover {
     background-color: #FFA;
+    color: #210;
 }
 
 #MENU li:hover a {
-    color: #A53;
+    color: #210;
 }
 
 #MENU a {
@@ -110,8 +106,8 @@ body {
 }
 
 .art img {
-    float: left;
-    width: 160px;
+    display: inline-block;
+    width: 110px;
     margin: 10px;
 }
 
@@ -121,8 +117,9 @@ body {
 
 #STOPKA>div {
     display: inline-block;
-    vertical-align: top;
     width: 33%;
+    margin: 0px;
+    vertical-align: top;
     text-align: center;
 }
 
@@ -133,4 +130,43 @@ body {
 
 #STOPKA a {
     color: white;
+}
+
+
+/*
+    FORMULARZE 
+*/
+
+.blok-50p {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    width: 49.5%;
+}
+
+p.etykieta {
+    font-weight: 400;
+    font-size: medium;
+    text-align: center;
+}
+
+input {
+    padding: 4px 10px;
+}
+
+textarea {
+    padding: 4px 10px;
+}
+
+.dlugi {
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0px auto;
+    width: 100%;
+    font-variant: small-caps;
+}
+
+.submit {
+    background-color: #FFA;
 }
