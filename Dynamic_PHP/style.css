@@ -101,7 +101,12 @@ body {
 
 .art h2 {
     font-variant: small-caps;
+    margin: 2px;
     color: #210;
+}
+
+.art h4 {
+    margin: 2px;
 }
 
 .art p {

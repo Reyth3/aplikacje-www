@@ -9,6 +9,15 @@
             {
                 echo ("Dziękujemy za zgłoszenie zamówienia.");
             }
+            elseif($form == "logout") {
+                session_destroy();
+                header("Refresh:0; url=/");
+            }
+            elseif($form == "login")
+            {
+                $_SESSION["user_token"] = "1";
+                header("Refresh:0; url=/");
+            }
             else if ($form == "addnews")
             {
                 $a_title = $_POST["title"];

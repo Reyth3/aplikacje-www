@@ -1,0 +1,19 @@
+﻿@page "/"
+
+@using ASPNET.Data
+@inject ArticleService _as
+
+@{ var articles = _as.ListAllArticles();} 
+@foreach (var art in articles)
+{
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">@art.Title</h5>
+            <h6 class="card-subtitle mb-2 text-muted"><abbr>@art.CreatedAt</abbr></h6>
+            <img class="float-lg-left" style="height: 180px" src="@art.Thumbnail" alt="thumbnail" />
+            <p class="card-text">@((MarkupString)art.Content)</p>
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
+        </div>
+    </div>
+}

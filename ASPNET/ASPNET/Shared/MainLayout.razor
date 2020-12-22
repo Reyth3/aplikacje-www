@@ -1,0 +1,32 @@
+﻿@inherits LayoutComponentBase
+
+<div class="container">
+    <div class="row">
+        <div class="col bg-primary">
+            <h1>Serafin Ramen Bar</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <Sidebar />
+        </div
+        <div class="col-md-8">
+            <h2>Content</h2>
+            @Body
+        </div>
+    </div>
+    <hr />
+    <div class="row bg-dark text-center text-light" style="padding: 10px">
+        <div class="col">
+            Copyright
+        </div>
+        <div class="col">
+            Copyright
+        </div>
+        <div class="col">
+            <img src="images/footer-fb.png" alt="Nasz Facebook" class="custom-control-inline" />
+            <img src="images/footer-tt.png" alt="Nasz Twitter" class="custom-control-inline" />
+            <img src="images/footer-rss.png" alt="Nasz RSS" class="custom-control-inline" />
+        </div>
+    </div>
+</div>

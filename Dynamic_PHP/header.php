@@ -1,7 +1,7 @@
         <div id="NAGLOWEK">
             <a href="/">
                 <img alt="logo" src="images/ramen.png" />
-                <h1>Ramen Bar</h1>
+                <h1>Serafin Ramen Bar</h1>
             </a>
             <div class="clear"></div>
 
@@ -14,4 +14,7 @@
                 <li><a href="/?content=contact">Kontakt</a></li>
                 <li><a href="/?content=addnews">Dodaj Newsa</a></li>
             </ul>
+            <?php
+                include("login.php");
+            ?>
         </div>
